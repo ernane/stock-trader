@@ -7,7 +7,7 @@ def lambda_handler(event, context):
     """Sample Lambda function which mocks the operation of buying a random number
     of shares for a stock.
 
-    For demonstration purposes, this Lambda function does not actually perform any 
+    For demonstration purposes, this Lambda function does not actually perform any
     actual transactions. It simply returns a mocked result.
 
     Parameters
@@ -29,9 +29,7 @@ def lambda_handler(event, context):
         "id": str(uuid4()),  # Unique ID for the transaction
         "price": str(stock_price),  # Price of each share
         "type": "buy",  # Type of transaction (buy/sell)
-        "qty": str(
-            randint(1, 10)
-        ),  # Number of shares bought/sold (We are mocking this as a random integer between 1 and 10)
-        "timestamp": datetime.now().isoformat(),  # Timestamp of the when the transaction was completed
+        "qty": str(randint(1, 10)),
+        "timestamp": datetime.now().isoformat(),
     }
     return transaction_result
