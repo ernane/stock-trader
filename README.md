@@ -1,5 +1,29 @@
 # stock-trader
 
+<p align="center">
+    <a href="https://sonarcloud.io/dashboard?id=ernane_stock-trader">
+        <img alt="Quality Gate" src="https://sonarcloud.io/api/project_badges/measure?project=ernane_stock-trader&metric=alert_status">
+    </a>
+    <a href="https://codecov.io/gh/ernane/stock-trader">
+        <img alt="Coverage Status" src="https://codecov.io/gh/ernane/stock-trader/branch/master/graph/badge.svg">
+    </a>
+    <a href="https://github.com/ernane/stock-trader/actions">
+        <img alt="Tests Status" src="https://github.com/ernane/stock-trader/workflows/tests/badge.svg">
+    </a>
+    <a href="https://github.com/ernane/stock-trader/blob/master/LICENSE">
+        <img alt="License: MIT" src="https://img.shields.io/github/license/ernane/stock-trader">
+    </a>
+    <a href="https://github.com/ernane/stock-trader">
+        <img alt="Python: 3.6|3.7|3.8" src="https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8-blue">
+    </a>
+    <a href="https://github.com/psf/black">
+        <img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg">
+    </a>
+    <a href="https://requires.io/github/ernane/stock-trader/requirements/?branch=master">
+        <img src="https://requires.io/github/ernane/stock-trader/requirements.svg?branch=master" alt="Requirements Status" />
+    </a>
+</p>
+
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders:
 
 - functions - Code for the application's Lambda functions to check the value of, buy, or sell shares of a stock.
