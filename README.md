@@ -1,6 +1,12 @@
 # stock-trader
 
 <p align="center">
+    <a href="https://sonarcloud.io/dashboard?id=ernane_stock-trader">
+        <img alt="Quality Gate" src="https://sonarcloud.io/api/project_badges/measure?project=ernane_stock-trader&metric=alert_status">
+    </a>
+    <a href="https://codecov.io/gh/ernane/stock-trader">
+        <img alt="Coverage Status" src="https://codecov.io/gh/ernane/stock-trader/branch/master/graph/badge.svg">
+    </a>
     <a href="https://github.com/ernane/stock-trader/actions">
         <img alt="Tests Status" src="https://github.com/ernane/stock-trader/workflows/tests/badge.svg">
     </a>
