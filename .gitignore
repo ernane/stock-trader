@@ -215,6 +215,7 @@ venv.bak/
 !.vscode/launch.json
 !.vscode/extensions.json
 .history
+.vscode/
 
 ### Windows ###
 # Windows thumbnail cache files
